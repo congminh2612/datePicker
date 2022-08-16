@@ -35,7 +35,7 @@ const YearDropDown: React.FC<Props> = ({ state, ref }) => {
       <Select
         value={'20'}
         onChange={onChange}
-        MenuProps={{ anchorEl: ref?.current, sx: { top: '-265px' ,left:'114px',maxHeight:'400px'} }}
+        MenuProps={{ anchorEl: ref?.current, sx: { top: '-265px' ,left:'-183px',maxHeight:'400px'} }}
         sx={{
           position: 'relative',
           height: '32px',
